@@ -4,59 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "79f52b9d8afbfe46",
+        "id": "44c2548843442f6a",
         "type": "tabs",
         "children": [
           {
-            "id": "f2569fd4e3bc45ff",
+            "id": "9edadf1cf917795a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/临时.md",
+                "file": "技术必记/系统查询响应状态码.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "01e2f125155499aa",
+            "id": "cb5bc40797a09510",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "其他/谷歌浏览器常用.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0456bee38a6a9ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/常用命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1aa53318ca927f02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/键盘快捷命令.md",
+                "file": "技术必记/仓库/git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/常用命令.md",
+                "file": "技术必记/仓库/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/常用命令.md",
+                "file": "技术必记/仓库/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/常用命令.md"
+                "file": "技术必记/仓库/git.md"
               }
             }
           }
@@ -183,19 +159,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d0456bee38a6a9ef",
+  "active": "cb5bc40797a09510",
   "lastOpenFiles": [
-    "Linux/临时.md",
-    "其他/谷歌浏览器常用.md",
-    "其他",
+    "技术必记/系统查询响应状态码.md",
     "Linux/常用命令.md",
-    "常用.md",
+    "Linux/临时.md",
     "Linux/键盘快捷命令.md",
-    "软件测试/仓库/svn.md",
-    "软件测试/仓库/git.md",
+    "技术必记/谷歌浏览器常用.md",
+    "未命名.md",
+    "技术必记",
+    "Linux/未命名",
+    "其他",
+    "常用.md",
+    "技术必记/仓库/svn.md",
+    "技术必记/仓库/git.md",
     "Linux",
     "软件测试/服务器",
-    "软件测试/仓库",
+    "技术必记/仓库",
     "软件测试"
   ]
 }
