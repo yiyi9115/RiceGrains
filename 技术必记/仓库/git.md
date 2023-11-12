@@ -9,7 +9,7 @@ git push origin
 从仓库拉下来到本机电脑
 ```shell
 # 方式一 把原来删除，或者是本来就没有
-rm -f RiceGrains
+rm -r RiceGrains
 git clone https://github.com/yiyi9115/RiceGrains.git
 
 
