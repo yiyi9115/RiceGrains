@@ -8,24 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9edadf1cf917795a",
+            "id": "00b3f5c0439eab12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术必记/系统查询响应状态码.md",
+                "file": "Linux/常用命令/文件与目录.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cb5bc40797a09510",
+            "id": "d0db3546f577b69e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "技术必记/仓库/git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f691524285d9afa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/常用命令/其他.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "a503238292989b56",
@@ -159,20 +171,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cb5bc40797a09510",
+  "active": "d0db3546f577b69e",
   "lastOpenFiles": [
-    "技术必记/系统查询响应状态码.md",
-    "Linux/常用命令.md",
     "Linux/临时.md",
-    "Linux/键盘快捷命令.md",
     "技术必记/谷歌浏览器常用.md",
+    "技术必记/仓库/svn.md",
+    "技术必记/仓库/git.md",
+    "Linux/键盘快捷命令.md",
+    "Linux/常用命令/文件与目录.md",
+    "Linux/常用命令/文件权限.md",
+    "Linux/常用命令/其他.md",
+    "Linux/常用命令/磁盘.md",
+    "Linux/常用命令",
     "未命名.md",
+    "技术必记/系统查询响应状态码.md",
     "技术必记",
     "Linux/未命名",
     "其他",
     "常用.md",
-    "技术必记/仓库/svn.md",
-    "技术必记/仓库/git.md",
     "Linux",
     "软件测试/服务器",
     "技术必记/仓库",
