@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "44c2548843442f6a",
+        "id": "29cb24f9bbe965cc",
         "type": "tabs",
         "children": [
           {
-            "id": "00b3f5c0439eab12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/常用命令/文件与目录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0db3546f577b69e",
+            "id": "299ca6572be55402",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f691524285d9afa8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/常用命令/其他.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,17 +146,28 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d0db3546f577b69e",
+  "active": "299ca6572be55402",
   "lastOpenFiles": [
-    "Linux/临时.md",
-    "技术必记/谷歌浏览器常用.md",
     "技术必记/仓库/svn.md",
+    "999",
     "技术必记/仓库/git.md",
-    "Linux/键盘快捷命令.md",
-    "Linux/常用命令/文件与目录.md",
-    "Linux/常用命令/文件权限.md",
-    "Linux/常用命令/其他.md",
     "Linux/常用命令/磁盘.md",
+    "技术必记/Linux/常用命令/磁盘.md",
+    "技术必记/Linux/常用命令/文件权限.md",
+    "技术必记/Linux/常用命令/文件与目录.md",
+    "技术必记/Linux/常用命令/其他.md",
+    "技术必记/Linux/键盘快捷命令.md",
+    "技术必记/Linux/常用命令",
+    "技术必记/Linux/临时.md",
+    "技术必记/Linux",
+    "临时test",
+    "未命名文件夹",
+    "Linux/常用命令/其他.md",
+    "Linux/常用命令/文件权限.md",
+    "Linux/常用命令/文件与目录.md",
+    "Linux/临时.md",
+    "Linux/键盘快捷命令.md",
+    "技术必记/谷歌浏览器常用.md",
     "Linux/常用命令",
     "未命名.md",
     "技术必记/系统查询响应状态码.md",
@@ -189,9 +175,6 @@
     "Linux/未命名",
     "其他",
     "常用.md",
-    "Linux",
-    "软件测试/服务器",
-    "技术必记/仓库",
-    "软件测试"
+    "Linux"
   ]
 }
