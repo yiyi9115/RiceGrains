@@ -1,0 +1,31 @@
+
+什么是apt-get？
+apt-get是一个 命令 行工具，有助于在linux中处理包。其主要任务是从经过身份验证的源检索信息和包，以安装、升级和删除包。
+以前直接叫apt-get，现在简称：apt
+
+
+apt-get软件管理
+
+1.安装软件操作：
+apt install wechat
+
+2.卸载软件操作：
+apt remove wechat
+
+3.查看软件操作：
+apt list --installed （查看所有）
+
+apt list --installed |grep wechat (单独查看刚才下载软件)
+
+
+源仓库路径 = 仓库源  添加第三方源  源的路径
+
+/etc/apt/sources.list
+/etc/apt/sources.list.d/chrome.list
+/etc/apt/sources.list.d/weixin.list
+
+
+两种方式
+
+vim /etc/apt/sources.list
+echo "deb http://weixin.com jammy main restricted" >> /etc/apt/sources.list
