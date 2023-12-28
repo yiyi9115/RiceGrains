@@ -1,5 +1,5 @@
 
-Nginx也可称：engine X ，现在更多人直接简称：nginx
+第一：Nginx也可称：engine X ，现在更多人直接简称：nginx
 
 1.安装nginx操作：
 apt install nginx
@@ -9,7 +9,7 @@ sudo apt install nginx
 
 
 
-nginx
+第二：nginx
 
 1.做什么的 ？
 一个轻量级/高性能的反向代理Web服务器，它是由C语言写的，所以速度非常快、性能非常优秀。它的主要功能就是反向代理、负载均衡、配置SSL证书、防盗链、解决跨域问题、缓存、限流、动静资源分离等等。
@@ -29,10 +29,18 @@ nginx
 3.怎么启动、关闭和重启 ？
 启动操作：敲 nginx 或者敲 /usr/sbin/nginx （nginx也等于/usr/sbin/nginx）
 在重启遇到没权限时，添加：sudo 在前面即可完成
-例如：sudo nginx
+例如：sudo /usr/sbin/nginx
 
-关闭操作：nginx -s stop
+关闭操作：/usr/sbin/nginx -s stop
 
-重启操作：nginx -s reload
+重启操作：/usr/sbin/nginx -s reload
 
-以上操作过时候，确认是否好操作敲：ps aux |grep nginx
+查看nginx是否在运行：ps aux | grep nginx 或者 ps -ef | grep nginx
+                 显示所有包含其他使用者的进程     查找指定进程
+
+第三，在终端查询nginx的配置文件语法是否正确，使用：/usr/sbin/nginx -t
+
+
+
+
+

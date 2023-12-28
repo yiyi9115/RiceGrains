@@ -1,8 +1,11 @@
 ```shell
+
 1、ls 命令
 查看目录下东西
 ll  == ls -l   --- 也是查询目录内容，归类增强版
 ls --- 简单版
+
+ll -a （能查询.隐藏的文件显示出来）
 
 
 2、cd 命令
@@ -29,6 +32,7 @@ sharon@192  ~/Downloads/yaya  mkdir yakir666
 5、rm 命令
 删除文件 rm ccc.txt
 删除目录 rm -r mili2
+当删除目录遇到需要一直属于y（yes）的时候，我们可以按ctrl+c中断回到原本开始重新输入 rm -rf ./mili2 即可快速完成操作
 
 
 6、touch 命令
@@ -55,7 +59,8 @@ mv * ../
 
 
 8、cp 命令
-xxx
+用于复制文件或目录
+cp /tmp/liuliu/aaa.txt /tmp/yeye
 
 
 9、cat 命令
@@ -70,8 +75,12 @@ xxx
 #11、less 命令
 
 
-12、head 命令
-xxx
+12、head 命令：用于查看文件的开头部分的内容
+-q 隐藏文件名
+-v 显示文件名
+-c<数目> 显示的字节数
+-n<行数> 显示的行数
+head -n 10 aaa.txt
 
 
 13、tail 命令
@@ -94,7 +103,8 @@ echo -e "Oh \c" 分析：-e是开始要转变，\c是锁住不换行继续输入
 :w 等于 保存文件
 :q 退出 vim 编辑器页面
 
-
+vim可以在绑hosts使用，比如：
+vim /etc/hosts 
 
 
 

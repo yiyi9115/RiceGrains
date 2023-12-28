@@ -1,0 +1,13 @@
+
+#电脑上推不了以下这些文件进去github仓库
+
+
+# OSX （苹果电脑系统）
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+
+
+

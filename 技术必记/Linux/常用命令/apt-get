@@ -29,3 +29,8 @@ apt list --installed |grep wechat (单独查看刚才下载软件)
 
 vim /etc/apt/sources.list
 echo "deb http://weixin.com jammy main restricted" >> /etc/apt/sources.list
+
+
+
+
+

@@ -1,59 +1,97 @@
 ```shell
+
+man 命令是 "manual" 单词的缩写，用于查看各种命令、函数和配置文件的手册页面。 
+
+
 Mac 专用命令： 
 open . = 打开当前目录
 
 
-14、which 命令
+whereis 命令：用于查找软件
+whereis bash
+
+
+find 命令：用于在指定目录下查找文件和目录
+find . -name aaa.txt
+find . -name "*.c"
+
+
+tar 命令：用于压缩和解压文件
+tar -czvf test.tar.gz a.c
+           压缩此文件  解压此文件
+tar -tzvf test.tar.gz （查看压缩后文件内容）
+tar -xzvf test.tar.gz （操作解压文件）
+
+
+ln 命令
 xxx
 
 
-15、whereis 命令
+date 命令：用来显示或设定系统的日期与时间
+在终端直接打：date 即可出来
+
+
+grep 命令：用于过滤文件（使用时带上管道符号: | ）
+ll | grep yakir
+
+
+wc 命令
 xxx
 
 
-16、locate 命令
+ps 命令：用于显示当前进程的状态
+-aux 显示所有包含其他使用者的进程
+ps -ef | grep nginx (nginx是进程关键字)
+ps aux | grep nginx (nginx是进程关键字)
+
+
+top 命令
 xxx
 
 
-17、find 命令
+kill 命令
 xxx
 
 
-19、tar 命令
+free 命令
 xxx
 
 
-23、ln 命令
-xxx
+tree 命令
 
 
-24、date 命令
-xxx
+ping 命令：用于检测与另一个主机之间的网络连接
+ping yiyi.com
 
 
-#25.cal 命令
 
 
-26、grep 命令
-xxx
 
 
-27、wc 命令
-xxx
 
 
-28、ps 命令
-xxx
 
 
-29、top 命令
-xxx
 
 
-30、kill 命令
-xxx
 
 
-31、free 命令
-xxx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
