@@ -28,7 +28,7 @@ chmod o+w aaa.txt
 chown yakir:wheel  x1.txt
        用户   组    文件或目录
 
-当使用到chown命令时之前必须操作以下命令才能轮到它上场！
+当使用到chown命令时之前必须操作以下3、4、5、命令才能轮到chown上场！
 
 
 3、su 命令

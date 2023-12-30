@@ -1,16 +1,20 @@
 
 域名区分有无证书
-有证书：http://baidu.com
-无证书：https://baidu.com
+无证书：http://baidu.com
+有证书：https://baidu.com
 
 
-域名解析记录类型
+（DNS解析）域名解析记录类型
 有很多，学习了解常用两种
 
 baidu.com -> 110.242.68.66      A类型
 
 j9.com -> hx1.hk.cdn999.net -> 202.64.8.38     CNAME类型   
 j10.com -> hx1.hk.cdn999.net -> 202.64.8.38    CNAME类型
+
+
+
+
 
 
 

@@ -9,6 +9,10 @@ git push
 git push origin
 ```
 
+git status (这个是查看修改过文件里哪一些内容)
+
+
+
 
 从仓库拉下来到本机电脑
 ```shell
