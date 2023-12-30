@@ -16,15 +16,14 @@ find . -name aaa.txt
 find . -name "*.c"
 
 
-tar 命令：用于压缩和解压文件
-tar -czvf test.tar.gz a.c
-           压缩此文件  解压此文件
-tar -tzvf test.tar.gz （查看压缩后文件内容）
-tar -xzvf test.tar.gz （操作解压文件）
+tar、gzip、gunzip命令：用于压缩和解压文件
 
+1.tar命令的使用可以处理文件/目录文件
+tar -czvf test.pdf.tar.gz   test.pdf
+            后缀是固定       压缩此文件
+tar -xzvf test.pdf.tar.gz （操作解压文件）
 
-ln 命令
-xxx
+2.gzip(压缩)、gunzip(解压)命令的使用是只能处理文件
 
 
 date 命令：用来显示或设定系统的日期与时间
@@ -33,65 +32,26 @@ date 命令：用来显示或设定系统的日期与时间
 
 grep 命令：用于过滤文件（使用时带上管道符号: | ）
 ll | grep yakir
+echo 123 |grep 4
+ps aux |grep nginx
 
 
-wc 命令
-xxx
+wc 命令：计算屏幕输出的东西数量
+ls |wc -l
+echo 123 |wc -l
 
 
-ps 命令：用于显示当前进程的状态
+ps 命令：用于显示当前进程的状态，进程的ID等
 -aux 显示所有包含其他使用者的进程
 ps -ef | grep nginx (nginx是进程关键字)
 ps aux | grep nginx (nginx是进程关键字)
 
 
-top 命令
-xxx
-
-
-kill 命令
-xxx
-
-
-free 命令
-xxx
-
-
-tree 命令
-
-
-ping 命令：用于检测与另一个主机之间的网络连接
-ping yiyi.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+kill 命令:删除进程程序或程序的任务ID
+-9   暴力的杀死进程
+-15  温和的杀死进程
+kill -9 nginx
+kill -9 912 （这种删除进程，看进程下面的最长一条归类为‘爸爸’，短的都是’儿子‘，使用这种操作，先删除’爸爸‘整个进程都没有了，删除‘儿子’需要一个个删）
 
 
 ```
