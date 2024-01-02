@@ -40,27 +40,23 @@ sharon@192  ~/Downloads/yaya  mkdir yakir666
 touch aaa.txt
 
 
-7、mv 命令
-·移动文件或修改文件名，根据第二参数类型（如目录，则移动文件；如为文件则重命令该文件）。
-·当第二个参数为目录时，第一个参数可以是多个以空格分隔的文件或目录，然后移动第一个参数指定的多个文件到第二个参数指定的目录中。
-
+7、mv 命令:移动文件或修改文件名，根据第（2）如目录下移动文件；如为文件重名，则原来文件会被覆盖，显示刚移动的文件。
 举例说明：
 （1）将文件 test.log 重命名为 test1.txt
 mv test.log test1.txt
 
-（2）将文件 log1.txt,log2.txt,log3.txt 移动到根的 test3 目录中
-mv llog1.txt log2.txt log3.txt /test3
+（2）将文件 log1.txt,log2.txt,log3.txt 移动到/test3目录中
+mv llog1.txt log2.txt log3.txt /tmp/test3
 
-（3）将文件 file1 改名为 file2，如果 file2 已经存在，则询问是否覆盖
-mv -i log1.txt log2.txt
+（3）将文件file1改名为file2，如果 file2 已经存在，则询问是否覆盖
+mv -i file1 file2
 
 （4）移动当前文件夹下的所有文件到上一级目录
 mv * ../
 
 
-8、cp 命令
-用于复制文件或目录
-cp /tmp/liuliu/aaa.txt /tmp/yeye
+8、cp 命令:用于复制文件或目录
+cp /tmp/liuliu/aaa.txt /tmp/yeye (如为文件重名，则原来文件会被覆盖，显示刚复制的文件)
 
 
 9、cat 命令
