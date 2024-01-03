@@ -3,6 +3,9 @@
 无证书：http://baidu.com
 有证书：https://baidu.com
 
+域名区端口：
+无证书：http://baidu.com:80
+有证书：https://baidu.com:443
 
 （DNS解析）域名解析记录类型
 有很多，学习了解常用两种

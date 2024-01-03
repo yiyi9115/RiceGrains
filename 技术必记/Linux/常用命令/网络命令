@@ -1,16 +1,43 @@
-ping 命令：用于检测与另一个主机之间的网络连接
+
+1.ping 命令：用于检测与另一个主机之间的网络连接，可查询域名ip
 ping yiyi.com
 
 
-telnet 命令：
-xxx
+2.netstat 命令：查看端口数字
+netstat -tnlp
+t或--tcp 显示TCP传输协议的连线状况
+n或--numeric 直接使用IP地址，而不通过域名服务器
+l或--listening 显示监控中的服务器的Socket
+p或--programs 显示正在使用Socket的程序识别码和程序名称
 
 
-ssh 命令：
-xxx
+3.telnet 命令：探测端口有没有通
+telnet fanyi.baidu.com 443 
+Trying 103.235.46.58...
+Connected to ipv46.fanyi-bfe.n.shifen.com.
+Escape character is '^]'.
+最后有显示'^]'.则已通，按退出是：ctrl+]再按ctrl+D
 
 
-netstat 命令：
-xxx
+4.ssh 命令：远程到别的电脑上，默认就是22端口，22基本不使用，但是要记得
+ssh yakir@127.0.0.1
+
+
+5.ip 命令：查询本机内网ip，127.0.0.1代表是本机内网固定ip
+ip addr 
+ip addr |grep 192
+
+windows电脑查询请使用：ipconfig命令
+linux查询请使用：ifconfig命令
+
+查询公网ip，只能使用域名查询：
+http://ip.sb/
+http://ip138.com/
+https://iplocation.net/
+
+
+6.curl 命令：
+
+
 
 

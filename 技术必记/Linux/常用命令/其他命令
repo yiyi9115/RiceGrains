@@ -11,6 +11,9 @@ whereis 命令：用于查找软件
 whereis bash
 
 
+whoami 命令：直接敲whoami即可查询当前用户名
+
+
 find 命令：用于在指定目录下查找文件和目录
 find . -name aaa.txt
 find . -name "*.c"
