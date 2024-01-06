@@ -1,6 +1,9 @@
 
-1.ping 命令：用于检测与另一个主机之间的网络连接，可查询域名ip
+1.ping 命令：用于检测与另一个主机之间的网络连接，可解析域名ip
 ping yiyi.com
+
+   https://   www.cnblogs.com  /ranyonsue/p/5984001.html
+   HTTP协议         域名             虚拟目录
 
 
 2.netstat 命令：查看端口数字
@@ -36,7 +39,26 @@ http://ip138.com/
 https://iplocation.net/
 
 
-6.curl 命令：
+6.curl 命令：模拟浏览器http请求访问服务器响应代码页面
+curl https://k8s.im/(就会响应请求体代码页面)，如果是请求访问响应回301永久重定向（改变了位置），我们需要添加 -L，如：curl https://k8.im/ -L 即可响应请求体代码页面
+
+curl https://k8.im/ -i（显示请求头和请求体全部信息）
+HTTP/2 200 
+date: Fri, 05 Jan 2024 14:44:58 GMT
+～
+～
+～
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+7.dig 命令
+
+
+
 
 
 

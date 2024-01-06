@@ -12,8 +12,8 @@
 
 baidu.com -> 110.242.68.66      A类型
 
-j9.com -> hx1.hk.cdn999.net -> 202.64.8.38     CNAME类型   
-j10.com -> hx1.hk.cdn999.net -> 202.64.8.38    CNAME类型
+baidu.com -> hx1.hk.cdn999.net -> 202.64.8.38     CNAME类型   
+baidu.com -> hx1.hk.cdn999.net -> 202.64.8.38    CNAME类型
 
 
 
