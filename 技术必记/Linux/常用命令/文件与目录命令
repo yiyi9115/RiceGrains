@@ -1,77 +1,68 @@
 ```shell
 
-1、ls 命令
-查看目录下东西
+1.ls 命令：查看目录下内容
 ll  == ls -l   --- 也是查询目录内容，归类增强版
 ls --- 简单版
 
 ll -a （能查询.隐藏的文件显示出来）
 
 
-2、cd 命令
-进入根目录
-cd /
-切换目录
-cd Downloads/
-cd ..ss
-
-
-3、pwd 命令
-用于查看当前工作目录路径
+2.pwd 命令：查看当前工作目录路径
 pwd
 /Users/sharon/Downloads
 
 
-4、mkdir 命令
-用于新建 目录/文件夹
+3.cd 命令：进入根目录如：cd /，切换目录使用
+cd Downloads/
+cd ..ss
+
+
+4.mkdir 命令：用于新建目录（目录也叫文件夹）
 比如：
-sharon@192  ~/Downloads  cd yaya
-sharon@192  ~/Downloads/yaya  mkdir yakir666
+sharon@192 /Downloads  cd yaya
+sharon@192 /Downloads/yaya  mkdir yakir666
 
 
-5、rm 命令
+5.touch 命令
+创建文件
+touch aaa.txt
+
+
+6.rm 命令
 删除文件 rm ccc.txt
 删除目录 rm -r mili2
 当删除目录遇到需要一直属于y（yes）的时候，我们可以按ctrl+c中断回到原本开始重新输入 rm -rf ./mili2 即可快速完成操作
 
 
-6、touch 命令
-创建文件
-touch aaa.txt
-
-
-7、mv 命令:移动文件或修改文件名，根据第（2）如目录下移动文件；如为文件重名，则原来文件会被覆盖，显示刚移动的文件。
+7.mv 命令:移动文件或修改文件名，根据第（2）如目录下移动文件；如为文件重名，则原来文件会被覆盖，显示刚移动的文件。
 举例说明：
-（1）将文件 test.log 重命名为 test1.txt
-mv test.log test1.txt
-
-（2）将文件 log1.txt,log2.txt,log3.txt 移动到/test3目录中
-mv llog1.txt log2.txt log3.txt /tmp/test3
-
-（3）将文件file1改名为file2，如果 file2 已经存在，则询问是否覆盖
-mv -i file1 file2
-
+（1）文件test.log改命名为test1.txt
+    mv test.log test1.txt
+（2）文件 log1.txt,log2.txt移动到/test3目录中
+    mv llog1.txt log2.txt /tmp/test3
+（3）文件file1改名为file2，如果 file2 已经存在，则询问是否覆盖? yes
+    mv -i file1 file2
+ 直接不写-i，则是直接覆盖，不会询问
 （4）移动当前文件夹下的所有文件到上一级目录
-mv * ../
+    mv * ../
 
 
-8、cp 命令:用于复制文件或目录
-cp /tmp/liuliu/aaa.txt /tmp/yeye (如为文件重名，则原来文件会被覆盖，显示刚复制的文件)
+8.cp 命令:用于复制文件或目录
+  cp /tmp/liuliu/aaa.txt /tmp/yeye (如为文件重名，则原来文件会被覆盖，显示刚复制的文件)
 
 
-9、cat 命令
-查看文件的内容
+9.cat 命令：查看文件的内容
 cat aaa.txt
 
 
-10、more 命令
+10.more 命令
 xxx
 
 
-#11、less 命令
+#11.less 命令
 
 
-12、head 命令：用于查看文件的开头部分的内容
+12.head 命令：用于查看文件的开头部分的内容
 -q 隐藏文件名
 -v 显示文件名
 -c<数目> 显示的字节数
@@ -79,11 +70,11 @@ xxx
 head -n 10 aaa.txt
 
 
-13、tail 命令
+13.tail 命令
 xxx
 
 
-14、echo 命令
+14.echo 命令
 用于输入内容进入“文件”里面
 echo 内容 > 文件名称 即可完成内容输入
 echo 内容 >> 文件名称 即可完成内容输入在第二行
@@ -92,7 +83,7 @@ echo -e "OK \n" 分析：-e是开始要转变，\n是跳转到第二行，下一
 echo -e "Oh \c" 分析：-e是开始要转变，\c是锁住不换行继续输入内容，下一次输入内容使用>>写入还是在同一行上，如果使用>则是把文件里内容都覆盖删除掉，剩下现写内容
 
 
-14、vim 命令：用于进入文件里面写内容
+15.vim 命令：用于进入文件里面写内容
 步骤：先写vim 然后写你要进入的文件写内容的文件名称，即可跳跃过去，显示的是可编辑文件内容页面，按大小I和大小A都可以编辑内容，完成内容之后按电脑上 Ese 键，在开始敲打上 :wq 即可退出编辑页面回到你原本终端页面
 
 详情：
@@ -101,6 +92,9 @@ echo -e "Oh \c" 分析：-e是开始要转变，\c是锁住不换行继续输入
 
 vim可以在绑hosts使用，比如：
 vim /etc/hosts 
+
+
+
 
 
 

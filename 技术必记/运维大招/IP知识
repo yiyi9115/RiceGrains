@@ -1,3 +1,4 @@
+////
 
 1.内网IP与公网IP区别
 
@@ -5,6 +6,12 @@
 10.X.X.X
 192.168.X.X
 172.16.X.X ~ 172.31.X.X
+
+
+查询公网ip，只能使用域名查询：
+http://ip.sb/
+http://ip138.com/
+https://iplocation.net/
 
 
 

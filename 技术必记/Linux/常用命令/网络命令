@@ -1,3 +1,4 @@
+////
 
 1.ping 命令：用于检测与另一个主机之间的网络连接，可解析域名ip
 ping yiyi.com
@@ -42,6 +43,8 @@ https://iplocation.net/
 6.curl 命令：模拟浏览器http请求访问服务器响应代码页面
 curl https://k8s.im/(就会响应请求体代码页面)，如果是请求访问响应回301永久重定向（改变了位置），我们需要添加 -L，如：curl https://k8.im/ -L 即可响应请求体代码页面
 
+curl 模拟浏览器请求，响应头+响应体：curl https://baidu.im/ -i
+
 curl https://k8.im/ -i（显示请求头和请求体全部信息）
 HTTP/2 200 
 date: Fri, 05 Jan 2024 14:44:58 GMT
@@ -55,8 +58,17 @@ date: Fri, 05 Jan 2024 14:44:58 GMT
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 
-7.dig 命令
+7.nslookup 命令：查看域名解析或者指定dns服务器查看域名解析
+使用本机默认的dns服务器查看域名解析
+nslookup baidu.com
 
+
+使用指定dns服务器查看域名解析，比如指定谷歌的8.8.8.8或1.1.1.1
+nslookup baidu.com 8.8.8.8
+nslookup baidu.com 1.1.1.1
+
+cat /etc/resolv.conf (查看本机默认的DNS服务器进程)
+vim /etc/resolv.conf (编辑本机指定的DNS服务器进程内容)
 
 
 

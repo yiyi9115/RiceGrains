@@ -51,6 +51,15 @@ groupadd wosai（用户组）
 （跳到root用户页面时候可以直接使用创建）
 
 
+查看用户名和用户组是否已添加好
+用户名：cat /etc/passwd
+用户组：cat /etc/group
+
+删除用户名和用户组：
+userdel xx用户名
+groupdel xx用户组
+
+
 6、sudo 命令（基本不使用了，直接切换root页面操作执行）
 用于在敲打其他命令没有权限操作的时可启动的超级用户的身份执行命令，添加sudo操作相当于root命令使用
 sudo groupadd
@@ -59,6 +68,18 @@ sudo groupadd
 7、我们在root用户页面时，想要退出可操作以下两种方式
 （1）在命令行中键入“exit”，然后敲击回车键即可完成退出
 （2）快捷键Ctrl+D可用来退出root用户
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
